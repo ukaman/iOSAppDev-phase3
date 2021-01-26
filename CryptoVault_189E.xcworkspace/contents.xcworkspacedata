@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:/Users/utkarshopalkar/Desktop/TA iOS - ECS 189E/HW2/HW2_solution_utkarsh/CryptoVault_189E/CryptoVault_189E/classes.swift">
+   </FileRef>
+   <FileRef
+      location = "group:/Users/utkarshopalkar/Desktop/TA iOS - ECS 189E/HW2/HW2_solution_utkarsh/CryptoVault_189E/CryptoVault_189E/Extensions.swift">
+   </FileRef>
+   <FileRef
+      location = "group:CryptoVault_189E.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Pods/Pods.xcodeproj">
+   </FileRef>
+</Workspace>

@@ -1,0 +1,434 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DE04960925BF9D56000CD980 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE04960825BF9D56000CD980 /* HomeViewController.swift */; };
+		DE4D235B25AE135300E44260 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4D235A25AE135300E44260 /* AppDelegate.swift */; };
+		DE4D235D25AE135300E44260 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4D235C25AE135300E44260 /* SceneDelegate.swift */; };
+		DE4D236225AE135300E44260 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE4D236025AE135300E44260 /* Main.storyboard */; };
+		DE4D236425AE135500E44260 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE4D236325AE135500E44260 /* Assets.xcassets */; };
+		DE4D236725AE135500E44260 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE4D236525AE135500E44260 /* LaunchScreen.storyboard */; };
+		DEC76B6A25B752FC00DAA461 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4D235E25AE135300E44260 /* ViewController.swift */; };
+		DEC76B7925B898EC00DAA461 /* VerifyOTPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC76B7825B898EC00DAA461 /* VerifyOTPViewController.swift */; };
+		DEC76B8F25B909B200DAA461 /* Api.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC76B8E25B909B200DAA461 /* Api.swift */; };
+		DEC76B9325B90A1500DAA461 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC76B9225B90A1500DAA461 /* Extensions.swift */; };
+		DEC76B9425B90A1500DAA461 /* classes.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC76B9125B90A1500DAA461 /* classes.swift */; };
+		F4C423AD883C2ABC959993A7 /* libPods-CryptoVault_189E.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B690D6AACB373878044D0F1 /* libPods-CryptoVault_189E.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5B690D6AACB373878044D0F1 /* libPods-CryptoVault_189E.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CryptoVault_189E.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		827430FBCD872B9588C0550D /* Pods-CryptoVault_189E.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CryptoVault_189E.debug.xcconfig"; path = "Target Support Files/Pods-CryptoVault_189E/Pods-CryptoVault_189E.debug.xcconfig"; sourceTree = "<group>"; };
+		B3E1ABAA74342CF347B82995 /* Pods-CryptoVault_189E.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CryptoVault_189E.release.xcconfig"; path = "Target Support Files/Pods-CryptoVault_189E/Pods-CryptoVault_189E.release.xcconfig"; sourceTree = "<group>"; };
+		DE04960825BF9D56000CD980 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		DE4D235725AE135300E44260 /* CryptoVault_189E.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CryptoVault_189E.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE4D235A25AE135300E44260 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DE4D235C25AE135300E44260 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DE4D235E25AE135300E44260 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DE4D236125AE135300E44260 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DE4D236325AE135500E44260 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DE4D236625AE135500E44260 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DE4D236825AE135500E44260 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEC76B7825B898EC00DAA461 /* VerifyOTPViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerifyOTPViewController.swift; sourceTree = "<group>"; };
+		DEC76B8E25B909B200DAA461 /* Api.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Api.swift; path = ../Api.swift; sourceTree = "<group>"; };
+		DEC76B9125B90A1500DAA461 /* classes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = classes.swift; path = "/Users/utkarshopalkar/Desktop/TA iOS - ECS 189E/HW2/HW2_solution_utkarsh/CryptoVault_189E/CryptoVault_189E/classes.swift"; sourceTree = "<absolute>"; };
+		DEC76B9225B90A1500DAA461 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = "/Users/utkarshopalkar/Desktop/TA iOS - ECS 189E/HW2/HW2_solution_utkarsh/CryptoVault_189E/CryptoVault_189E/Extensions.swift"; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DE4D235425AE135300E44260 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4C423AD883C2ABC959993A7 /* libPods-CryptoVault_189E.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DE4D234E25AE135300E44260 = {
+			isa = PBXGroup;
+			children = (
+				DE4D235925AE135300E44260 /* CryptoVault_189E */,
+				DE4D235825AE135300E44260 /* Products */,
+				DEF6F52CC942F3F89FEB1211 /* Pods */,
+				F439388C3131E830D9F10043 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DE4D235825AE135300E44260 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DE4D235725AE135300E44260 /* CryptoVault_189E.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DE4D235925AE135300E44260 /* CryptoVault_189E */ = {
+			isa = PBXGroup;
+			children = (
+				DEC76B9125B90A1500DAA461 /* classes.swift */,
+				DEC76B9225B90A1500DAA461 /* Extensions.swift */,
+				DEC76B8E25B909B200DAA461 /* Api.swift */,
+				DE4D235A25AE135300E44260 /* AppDelegate.swift */,
+				DE4D235C25AE135300E44260 /* SceneDelegate.swift */,
+				DE4D235E25AE135300E44260 /* ViewController.swift */,
+				DE4D236025AE135300E44260 /* Main.storyboard */,
+				DE04960825BF9D56000CD980 /* HomeViewController.swift */,
+				DE4D236325AE135500E44260 /* Assets.xcassets */,
+				DE4D236525AE135500E44260 /* LaunchScreen.storyboard */,
+				DE4D236825AE135500E44260 /* Info.plist */,
+				DEC76B7825B898EC00DAA461 /* VerifyOTPViewController.swift */,
+			);
+			path = CryptoVault_189E;
+			sourceTree = "<group>";
+		};
+		DEF6F52CC942F3F89FEB1211 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				827430FBCD872B9588C0550D /* Pods-CryptoVault_189E.debug.xcconfig */,
+				B3E1ABAA74342CF347B82995 /* Pods-CryptoVault_189E.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F439388C3131E830D9F10043 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5B690D6AACB373878044D0F1 /* libPods-CryptoVault_189E.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DE4D235625AE135300E44260 /* CryptoVault_189E */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE4D236B25AE135500E44260 /* Build configuration list for PBXNativeTarget "CryptoVault_189E" */;
+			buildPhases = (
+				9517AE2D976AB4607B26C866 /* [CP] Check Pods Manifest.lock */,
+				DE4D235325AE135300E44260 /* Sources */,
+				DE4D235425AE135300E44260 /* Frameworks */,
+				DE4D235525AE135300E44260 /* Resources */,
+				54E16E8F40D32F7276229F99 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CryptoVault_189E;
+			productName = CryptoVault_189E;
+			productReference = DE4D235725AE135300E44260 /* CryptoVault_189E.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DE4D234F25AE135300E44260 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					DE4D235625AE135300E44260 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = DE4D235225AE135300E44260 /* Build configuration list for PBXProject "CryptoVault_189E" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DE4D234E25AE135300E44260;
+			productRefGroup = DE4D235825AE135300E44260 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DE4D235625AE135300E44260 /* CryptoVault_189E */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DE4D235525AE135300E44260 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE4D236725AE135500E44260 /* LaunchScreen.storyboard in Resources */,
+				DE4D236425AE135500E44260 /* Assets.xcassets in Resources */,
+				DE4D236225AE135300E44260 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		54E16E8F40D32F7276229F99 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CryptoVault_189E/Pods-CryptoVault_189E-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CryptoVault_189E/Pods-CryptoVault_189E-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CryptoVault_189E/Pods-CryptoVault_189E-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9517AE2D976AB4607B26C866 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CryptoVault_189E-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DE4D235325AE135300E44260 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEC76B9425B90A1500DAA461 /* classes.swift in Sources */,
+				DEC76B6A25B752FC00DAA461 /* ViewController.swift in Sources */,
+				DEC76B9325B90A1500DAA461 /* Extensions.swift in Sources */,
+				DE04960925BF9D56000CD980 /* HomeViewController.swift in Sources */,
+				DE4D235B25AE135300E44260 /* AppDelegate.swift in Sources */,
+				DE4D235D25AE135300E44260 /* SceneDelegate.swift in Sources */,
+				DEC76B8F25B909B200DAA461 /* Api.swift in Sources */,
+				DEC76B7925B898EC00DAA461 /* VerifyOTPViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DE4D236025AE135300E44260 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE4D236125AE135300E44260 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DE4D236525AE135500E44260 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE4D236625AE135500E44260 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DE4D236925AE135500E44260 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DE4D236A25AE135500E44260 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DE4D236C25AE135500E44260 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 827430FBCD872B9588C0550D /* Pods-CryptoVault_189E.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CryptoVault_189E/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "utopian.CryptoVault-189E";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		DE4D236D25AE135500E44260 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3E1ABAA74342CF347B82995 /* Pods-CryptoVault_189E.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CryptoVault_189E/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "utopian.CryptoVault-189E";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DE4D235225AE135300E44260 /* Build configuration list for PBXProject "CryptoVault_189E" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE4D236925AE135500E44260 /* Debug */,
+				DE4D236A25AE135500E44260 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE4D236B25AE135500E44260 /* Build configuration list for PBXNativeTarget "CryptoVault_189E" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE4D236C25AE135500E44260 /* Debug */,
+				DE4D236D25AE135500E44260 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DE4D234F25AE135300E44260 /* Project object */;
+}

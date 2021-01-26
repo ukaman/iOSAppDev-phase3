@@ -1,0 +1,6 @@
+module Pods_CryptoVault_189E {
+  umbrella header "Pods-CryptoVault_189E-umbrella.h"
+
+  export *
+  module * { export * }
+}
